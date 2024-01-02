@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+* body {
+  background: #0a0726;
+  padding: 0 5%;
+}
+* body header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  color: #7d11c6;
+}
+@media screen and (max-width: 700px) {
+  * body header h1 {
+    font-size: 1.5rem;
+  }
+}
+* body main {
+  margin: 2rem 0;
+}
+* body main p {
+  color: #463b4e;
+  font-size: 17px;
+  line-height: 1.4rem;
+  word-spacing: 2px;
+}
+* body main .intro {
+  text-align: center;
+  padding: 1rem;
+}
+* body main .intro h1 {
+  font-size: 4rem;
+  color: white;
+}
+* body main .intro h1.span {
+  color: #7d11c6;
+}
+@media screen and (max-width: 700px) {
+  * body main .intro h1 {
+    font-size: 2.5rem;
+  }
+}
+* body main .intro .tags {
+  margin-top: 2rem;
+}
+* body main .intro .tags h2 {
+  font-size: 2.5rem;
+  color: #e6e4e4;
+}
+@media screen and (max-width: 700px) {
+  * body main .intro .tags h2 {
+    font-size: 2rem;
+  }
+}
+* body main .intro .tags .boxes {
+  width: 70%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 1rem;
+}
+* body main .intro .tags .boxes .box {
+  height: 6rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 2px solid #7d11c6;
+  color: #7d11c6;
+  font-size: 2rem;
+}
+@media screen and (max-width: 1000px) {
+  * body main .intro .tags .boxes {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  * body main .intro .tags .boxes .box {
+    height: 5rem;
+    font-size: 1.7rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  * body main .intro .tags .boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  * body main .intro .tags .boxes .box {
+    width: auto;
+    font-size: 1.5rem;
+  }
+}
+* body main .input {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+@media screen and (max-width: 1000px) {
+  * body main .input {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 700px) {
+  * body main .input {
+    width: 100%;
+    gap: 10px;
+    flex-direction: column;
+  }
+}
+* body main .input input {
+  flex: 3;
+  height: 3.5rem;
+  outline: 0;
+  border: 2px solid transparent;
+  background: #e6e4e4;
+  padding: 0 1rem;
+  font-size: 18px;
+  color: #7d11c6;
+  border-radius: 10px;
+}
+@media screen and (max-width: 700px) {
+  * body main .input input {
+    flex: none;
+    width: 100%;
+  }
+}
+* body main .input .generate_btn {
+  flex: 1;
+  border: 0;
+  outline: 0;
+  height: 3rem;
+  background: #7d11c6;
+  color: #e6e4e4;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+* body main .input .generate_btn:active {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 700px) {
+  * body main .input .generate_btn {
+    padding: 10px;
+  }
+}
+* body main .results {
+  margin: 3rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
+  gap: 2rem;
+}
+@media screen and (max-width: 700px) {
+  * body main .results {
+    grid-template-columns: 1fr;
+  }
+}
+* body main .results .quote_box {
+  padding: 1rem;
+  border: 2px solid #7d11c6;
+  border-radius: 10px;
+  color: #7d11c6;
+}
+* body main .results .quote_box .top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+* body main .results .quote_box .top h3 {
+  font-weight: 100;
+}
+* body main .results .quote_box .top small {
+  font-size: 15px;
+}
+* body main .results .quote_box .top img {
+  width: 3.4rem;
+  height: 3.6rem;
+  border-radius: 50%;
+}
+* body main .results .quote_box .quote {
+  color: #e6e4e4;
+  margin: 1rem 0;
+}
+* body main .results .quote_box .share {
+  cursor: pointer;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+* body footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem 0;
+  border-top: 1px solid #463b4e;
+}
+* body footer p {
+  color: #e6e4e4;
+}
+* body footer p a {
+  color: #7d11c6;
+}/*# sourceMappingURL=style.css.map */
