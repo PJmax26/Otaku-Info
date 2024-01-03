@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "quote": "I am going to be king of the pirates!",
+    "anime": "One Piece",
+    "character": "Monkey D. Luffy"
+  },
+  {
+    "id": 2,
+    "quote": "Believe it!",
+    "anime": "Naruto",
+    "character": "Naruto Uzumaki"
+  },
+  {
+    "id": 3,
+    "quote": "I'll take a potato chip... and eat it!",
+    "anime": "Death Note",
+    "character": "Light Yagami"
+  },
+  {
+    "id": 4,
+    "quote": "Just because I've gotten weaker, doesn't mean that you got stronger!",
+    "anime": "Dragon Ball Z",
+    "character": "Vegeta"
+  },
+  {
+    "id": 5,
+    "quote": "It's not the face that makes someone a monster; it's the choices they make with their lives.",
+    "anime": "Naruto",
+    "character": "Naruto Uzumaki"
+  },
+  {
+    "id": 6,
+    "quote": "I am not a hero because I want your approval. I do it because I want to!",
+    "anime": "My Hero Academia",
+    "character": "Izuku Midoriya"
+  },
+  {
+    "id": 7,
+    "quote": "I'm not gonna run away, I never go back on my word! That's my nindo: my ninja way!",
+    "anime": "Naruto",
+    "character": "Naruto Uzumaki"
+  },
+  {
+    "id": 8,
+    "quote": "I'm gonna be King of the Pirates!",
+    "anime": "One Piece",
+    "character": "Monkey D. Luffy"
+  },
+  {
+    "id": 9,
+    "quote": "I am Justice! I protect the innocent and those who fear evil. I'm the one who will become the god of a new world that everyone desires!",
+    "anime": "Death Note",
+    "character": "Light Yagami"
+  },
+  {
+    "id": 10,
+    "quote": "Kamehameha!",
+    "anime": "Dragon Ball Z",
+    "character": "Goku"
+  },
+  {
+    "id": 11,
+    "quote": "Your drill is the drill that will pierce the heavens!",
+    "anime": "Gurren Lagann",
+    "character": "Simon"
+  },
+  {
+    "id": 12,
+    "quote": "I'm not the protagonist of a novel or anything. I'm a college student who likes to read, like you could find anywhere.",
+    "anime": "The Melancholy of Haruhi Suzumiya",
+    "character": "Kyon"
+  }
+]

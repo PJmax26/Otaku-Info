@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AnimeQuotes</title>
+    <title>OtakuInfo</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1>AnimeQuotes</h1>
+      <h1>OtakuInfo</h1>
       <div class="actions">
         <a href="" class="github">G</a>
         <a href="" class="theme">Th</a>
@@ -32,7 +32,12 @@
       </div>
 
       <div class="input">
-        <input type="text" placeholder="Enter Query..." />
+        <!-- <select class="category">
+          <option value="ramdom">Generate Random</option>
+          <option value="anime">Anime</option>
+          <option value="character">Character</option>
+        </select>
+        <input class="user_query" type="text" placeholder="Enter Query..." /> -->
         <button class="generate_btn">Generate</button>
       </div>
 
@@ -41,27 +46,17 @@
             <div class="top">
                 <img src="Jaraiya.jpg" alt="">
                 <div class="text">
-                    <h3>Jiraiya of the Sannin</h3>
-                    <small>@Naruto Shipuden</small>
+                    <h3 id="character">Jiraiya of the Sannin</h3>
+                    <small id="anime">@Naruto Shipuden</small>
                 </div>
             </div>
             <p class="quote">
                 A person grows up when he's able to overcome hardships. Protection is important, but there are some things that a person must learn on thier own.
             </p>
-            <div class="share">copy</div>
-        </div>
-        <div class="quote_box">
-            <div class="top">
-                <img src="Gojo.JPG" alt="">
-                <div class="text">
-                    <h3>Gojo Satoru</h3>
-                    <small>@Jujutsu Kaisen</small>
-                </div>
+            <div class="share">
+              <p class="copy">Copy</p>
+              <p class="speak">Speak</p>
             </div>
-            <p class="quote">
-                You think because you can't see an end you're at a dead end. But that's the most generic thinking. The universe is expanding. Our world view is always at a dead end, but there's always a door open somewhere.
-            </p>
-            <div class="share">copy</div>
         </div>
       </div>
 
@@ -74,5 +69,5 @@
     </main>
   </body>
 
-  <script src="main.js"></script>
+  <script src="main2.js"></script>
 </html>
